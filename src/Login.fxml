@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="439.0" prefWidth="285.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+   <children>
+      <TextField fx:id="ip" alignment="CENTER" layoutX="76.0" layoutY="124.0" />
+      <TextField fx:id="port" alignment="CENTER" layoutX="78.0" layoutY="215.0" />
+      <PasswordField fx:id="password" alignment="CENTER" layoutX="78.0" layoutY="306.0" />
+      <Label alignment="CENTER" layoutX="68.0" layoutY="94.0" prefHeight="21.0" prefWidth="169.0" text="IP" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="68.0" layoutY="185.0" prefHeight="21.0" prefWidth="169.0" text="Port" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="68.0" layoutY="276.0" prefHeight="21.0" prefWidth="169.0" text="Password" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="95.0" layoutY="368.0" mnemonicParsing="false" onAction="#login" prefHeight="31.0" prefWidth="117.0" text="Login" />
+      <MenuBar prefHeight="32.0" prefWidth="303.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+              <items>
+                <MenuItem mnemonicParsing="false" text="About" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <Label alignment="CENTER" layoutX="66.0" layoutY="44.0" prefHeight="21.0" prefWidth="169.0" text="save.me - Login" textAlignment="CENTER" textFill="#004dcc" wrapText="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutX="53.0" layoutY="155.0" prefHeight="30.0" prefWidth="200.0" />
+      <Separator layoutX="53.0" layoutY="246.0" prefHeight="30.0" prefWidth="200.0" />
+   </children>
+</Pane>
