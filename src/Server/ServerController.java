@@ -75,6 +75,7 @@ public class ServerController {
         startr5.setDisable(false);
         stopme.setDisable(true);
         stopr5.setDisable(true);
+        stopall.setDisable(true);
         console.setText(console.getText() + "Stopped all servers" + "\n");
 
     }
