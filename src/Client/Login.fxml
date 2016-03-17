@@ -5,28 +5,28 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="439.0" prefWidth="285.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.LoginController">
+<Pane minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.LoginController">
    <children>
-      <TextField fx:id="ip" alignment="CENTER" layoutX="76.0" layoutY="124.0" />
-      <TextField fx:id="port" alignment="CENTER" layoutX="78.0" layoutY="215.0" />
-      <PasswordField fx:id="password" alignment="CENTER" layoutX="78.0" layoutY="306.0" />
-      <Label alignment="CENTER" layoutX="68.0" layoutY="94.0" prefHeight="21.0" prefWidth="169.0" text="IP" textAlignment="CENTER" wrapText="true">
+      <TextField fx:id="ip" alignment="CENTER" layoutX="50.0" layoutY="124.0" prefWidth="185.0" />
+      <TextField fx:id="port" alignment="CENTER" layoutX="50.0" layoutY="215.0" prefWidth="185.0" />
+      <PasswordField fx:id="password" alignment="CENTER" layoutX="50.0" layoutY="306.0" prefWidth="185.0" />
+      <Label alignment="CENTER" layoutX="58.0" layoutY="94.0" prefHeight="21.0" prefWidth="169.0" text="IP" textAlignment="CENTER" wrapText="true">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="68.0" layoutY="185.0" prefHeight="21.0" prefWidth="169.0" text="Port" textAlignment="CENTER" wrapText="true">
+      <Label alignment="CENTER" layoutX="58.0" layoutY="185.0" prefHeight="21.0" prefWidth="169.0" text="Port" textAlignment="CENTER" wrapText="true">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="68.0" layoutY="276.0" prefHeight="21.0" prefWidth="169.0" text="Password" textAlignment="CENTER" wrapText="true">
+      <Label alignment="CENTER" layoutX="58.0" layoutY="276.0" prefHeight="21.0" prefWidth="169.0" text="Password" textAlignment="CENTER" wrapText="true">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
-      <Button layoutX="95.0" layoutY="368.0" mnemonicParsing="false" onAction="#login" prefHeight="31.0" prefWidth="117.0" text="Login" />
-      <MenuBar prefHeight="32.0" prefWidth="303.0">
+      <Button layoutX="85.0" layoutY="362.0" mnemonicParsing="false" onAction="#login" prefHeight="31.0" prefWidth="117.0" text="Login" />
+      <MenuBar layoutY="-2.0" prefHeight="32.0" prefWidth="285.0">
         <menus>
           <Menu mnemonicParsing="false" text="File">
             <items>
@@ -40,12 +40,13 @@
             </Menu>
         </menus>
       </MenuBar>
-      <Label alignment="CENTER" layoutX="66.0" layoutY="44.0" prefHeight="21.0" prefWidth="169.0" text="save.me - Login" textAlignment="CENTER" textFill="#004dcc" wrapText="true">
+      <Label alignment="CENTER" layoutX="58.0" layoutY="44.0" prefHeight="21.0" prefWidth="169.0" text="save.me - Login" textAlignment="CENTER" textFill="#004dcc" wrapText="true">
          <font>
             <Font size="24.0" />
          </font>
       </Label>
-      <Separator layoutX="53.0" layoutY="155.0" prefHeight="30.0" prefWidth="200.0" />
-      <Separator layoutX="53.0" layoutY="246.0" prefHeight="30.0" prefWidth="200.0" />
+      <Separator layoutX="42.5" layoutY="155.0" prefHeight="30.0" prefWidth="200.0" />
+      <Separator layoutX="42.5" layoutY="246.0" prefHeight="30.0" prefWidth="200.0" />
+      <VBox layoutX="93.0" layoutY="393.0" prefHeight="30.0" prefWidth="100.0" />
    </children>
 </Pane>
